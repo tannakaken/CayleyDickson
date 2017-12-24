@@ -69,6 +69,14 @@ Webサイト[forcing.nagoya](http://forcing.nagoya/)
 
 冬コミに来られる方はちょっと寄って見てください。
 
+## 関連アプリ
+
+この仕組みを使って作ったAndroidアプリ
+[無限次元超複素数電卓Infinitenion](https://play.google.com/store/apps/details?id=jp.tannakaken.infinitenion&hl=ja)
+を公開していますので、もしよろしければインストールして遊んでください。
+
+iPhone版も近いうちに作りたいです。
+
 ## まとめ
 
 いやあ、無限って本当にいいものですね。
