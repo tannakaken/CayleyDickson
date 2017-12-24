@@ -1,4 +1,4 @@
-module CayleyDickson(i) where
+module CayleyDickson(r,i) where
 
 data CayleyDickson = Node Float | Branch CayleyDickson CayleyDickson Integer
   deriving (Eq)
@@ -14,6 +14,8 @@ height :: CayleyDickson -> Integer
 height (Node _) = 0
 height (Branch real imag h)  = h
 
+r :: Float -> CayleyDickson
+r = Node
 
 i :: Integer -> CayleyDickson
 i 0 = Node 1.0
