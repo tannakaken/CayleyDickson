@@ -24,14 +24,14 @@ i n =
   let
     (l,r) =
       let 
-        logAndReminder logarithm powerOfTwo =
+        logAndRemainder logarithm powerOfTwo =
           let newPower = 2 * powerOfTwo
           in
             if n >= newPower
-              then logAndReminder (logarithm + 1) newPower
+              then logAndRemainder (logarithm + 1) newPower
               else (logarithm, n - powerOfTwo)
       in
-        logAndReminder 0 1
+        logAndRemainder 0 1
     imag = i r
   in
     Branch (Node 0.0) imag (l + 1)
